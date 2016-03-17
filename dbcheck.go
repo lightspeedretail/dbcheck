@@ -52,7 +52,6 @@ func checkServerVersion(con *sql.DB) {
 		log.Fatalf("Error: %v", err)
 	}
 	version = strings.Split(fullVersion, "-")
-	fmt.Printf("Version: %s\n", version[0])
 	var major, minor, release int
 	ver := strings.Split(version[0], ".")
 	major, err = strconv.Atoi(ver[0])
