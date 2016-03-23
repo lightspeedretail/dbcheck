@@ -1,0 +1,6 @@
+#!/usr/bin/env bash 
+
+hash go > /dev/null
+if [ ! $? ]; then
+    echo "golang is not installed.  Please install and configure golang: https://golang.org/doc/install"
+fi

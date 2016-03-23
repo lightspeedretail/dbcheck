@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+TAG=release-$(date -u +"%Y-%m-%d-%H%MZ")
+git tag $TAG origin/master
+git push --tags
