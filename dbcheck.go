@@ -1,4 +1,4 @@
-// Copyright 2016 Gabriel Guzman <gabe@lifewaza.com>.
+// Copyright (c) 2016, Lightspeed POS Inc.
 // All rights reserved.  Use of this source code is
 // governed by a BSD-style license that can be found
 // in the LICENSE file.
